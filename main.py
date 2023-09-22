@@ -1,13 +1,14 @@
 jumsu = [90,45,64,9,17,29]
 result=[]
-for jumsu in jumsu:
-    if 71<=jumsu:
+
+for i in jumsu:
+    if 71<=i:
         print('A')
         result.append("A")
-    elif 41<=jumsu:
+    elif 41<=i:
         print('B')
         result.append("B")
-    elif 11<=jumsu:
+    elif 11<=i:
         print('C')
         result.append("C")
     else :
